@@ -32,6 +32,9 @@
     <EmbeddedResource Include="MainPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="TodoEditPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -40,6 +43,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ISQLite.cs" />
+    <Compile Include="Database.cs" />
+    <Compile Include="ToDoListItem.cs" />
+    <Compile Include="TodoEditPage.xaml.cs">
+      <DependentUpon>TodoEditPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

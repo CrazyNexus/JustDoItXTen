@@ -5,7 +5,7 @@
 			<ListView.ItemTemplate>
 				<DataTemplate>
 					<ViewCell>
-						<AbsoluteLayout IsClippedToBounds="true" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.layoutFlags="All">
+						<AbsoluteLayout IsClippedToBounds="true" AbsoluteLayout.LayoutBounds="1,1,1,1" AbsoluteLayout.LayoutFlags="All">
 							<Image Source="bg.jpg" Aspect="Fill" Opacity="{Binding alpha}" />
 							<StackLayout Padding="10,10,0,0" HorizontalOptions="StartAndExpand" Orientation="Vertical">
 								<Label Text="{Binding title}" YAlign="Center" HorizontalOptions="Start" FontSize="Medium" TextColor="White" />
